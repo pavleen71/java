@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAFF</title>
+    <!--linking css-->
+    <link href="staff.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <h1>DATA OF STAFF MEMBERS</h1> 
+      <button id="sortByName">Sort by Name </button> 
+      <button id="sortBySalary">Sort by Salary </button> 
+      <button id="findById">Find By ID</button>
+      <div id="searchForm">
+        <label for="searchId">Search by ID:</label>
+        <input id="searchId" name="searchId">
+        <button id="find">Find</button>
+        <div id="searchResult"></div>
+    </div>
+    </header>
+    <main>
+    <section>
+        <!--div to display info-->
+        <div id="staffList"></div>
+    </section>
+    </main>
+<!--footer -->
+    <footer>
+        <p><a class="footer" href="/index.html" >Go Back</a></p>
+        
+        &copy; <span id="date"> </span> PAVLEEN KAUR. All rights reserved.
+    </footer>
+    <!--linking jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--linking javascript-->
+    <script src="staff.js"></script>
+</body>
+</html>
